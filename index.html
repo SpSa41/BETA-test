@@ -1,0 +1,95 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/slyder.css">
+	
+	<script src="eel.js"></script>
+	<title>Демо-версия страницы</title>
+</head>
+
+<header>
+	<div class="buttons">
+		<div class="main-buttons">
+			<a href=""><button class="main-button">Вернуться назад</button></a>
+		</div>
+		<div class="dropdown">
+	  		<button class="dropbtn">ТОП-5 МЕСТ ДЛЯ ПОСЕЩЕНИЯ</button>
+	  		<div class="dropdown-content">
+	    		<a href="#" class="l-1"><img src="img/kos.jpg" width="200px" height="130px" border=""><br> 1. Музей Космонавтики</a>
+	    		<a href="#" class="l-1"><img src="img/mos.jpg" width="200px" height="130px"><br>2. Москвариум</a>
+	    		<a href="#" class="l-1"><img src="img/font.jpeg" width="200px" height="130px"><br>3. Фонтан "Каменный цветок"</a>
+	    		<a href="#" class="l-1"><img src="img/kat.jpg" width="200px" height="130px"><br>4. Каток ВДНХ</a>
+	    		<a href="#" class="l-1"><img src="img/rab.jpg" width="200px" height="130px"><br>5. Скульптура "Рабочий и колхозница"</a>
+
+			</div>
+		</div>
+	</div>
+</header>
+
+<body>
+	<main class="try">
+		<div class="inf">
+			<h1>Web-приложение по построению маршрутов по интересным местам ВДНХ</h1>
+		</div>
+		<div class="inf-2">
+			<div class="table"></div>
+			<p class="inf-3">
+				Выставка достижений народного хозяйства сегодня – это самый крупный в России и один из крупнейших в мире развлекательных, рекреационных и выставочных комплексов. Он объединяет в себе павильоны и открытые зоны, где расположены выставки, музейные экспозиции, проводятся фестивали, конкурсы, концерты, конференции и форумы, а также множество площадок для активного и пассивного отдыха самостоятельно, в компании с друзьями или с детьми.
+			</p>
+			<h2 class="inf-4">Фотографии главного входа на ВДНХ</h2>
+
+			<!-- slyder --->
+				<div class="adaptivSlayder">
+				  <input type="radio" name="kadoves" id="slaid1" checked>
+				  <input type="radio" name="kadoves" id="slaid2">
+				  <input type="radio" name="kadoves" id="slaid3">
+				  <input type="radio" name="kadoves" id="slaid4">
+				  <div class="kadoves">
+				  	<label for="slaid1"></label>
+				  	<label for="slaid2"></label>
+				  	<label for="slaid3"></label>
+				  	<label for="slaid4"></label>
+				  </div>
+				  <div class="adaptivSlayderlasekun">
+				  	<div class="abusteku-deagulus">
+				  		<img src="img/BDNX.jpg"/>
+				  		<img src="img/BDNX-2.jpg"/>
+				  		<img src="img/BDNX-3.jpg"/>
+				  		<img src="img/BDNX-4.jpg"/>
+				  	</div>
+				  </div>
+				</div>
+			<!-- slyder --->
+
+		</div>
+
+		<div id="map" class="k-1"></div>
+
+	</main>
+	<footer class="footer">
+		<div class="contacts">
+			<p>Контакты для связи с технической поддержкой</p>
+		</div>
+		<div class="icons">
+			<a class="tg" onClick="window.open('https://web.telegram.org/z/#5193259372');">
+				<img src="img/tg.png" width="50px" height="50px">
+			</a>
+			<a class="ds" onClick="window.open('https://discord.gg/EvBkr5Hb');">
+				<img src="img/ds.png" width="50px" height="50px">
+		</div>
+	</footer>
+
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=20f698cf-8f71-441d-a0a4-93bbb0e9eb7b"
+		type="text/javascript"></script>
+
+	<script src="scripts/script.js"></script>
+</body>
+
+
+
+
+</html>

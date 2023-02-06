@@ -45,6 +45,14 @@
   background-color: white;
 }
 
+#slaid5:checked~.kadoves label[for="slaid5"] {
+  background-color: white;
+}
+
+#slaid6:checked~.kadoves label[for="slaid6"] {
+  background-color: white;
+}
+
 .adaptivSlayderlasekun {
   overflow: hidden;
 }
@@ -74,4 +82,12 @@
 
 #slaid4:checked~.adaptivSlayderlasekun .abusteku-deagulus {
   transform: translateX(-300%);
+}
+
+#slaid5:checked~.adaptivSlayderlasekun .abusteku-deagulus {
+  transform: translateX(-400%);
+}
+
+#slaid6:checked~.adaptivSlayderlasekun .abusteku-deagulus {
+  transform: translateX(-500%);
 }

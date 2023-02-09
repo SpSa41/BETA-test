@@ -80,10 +80,10 @@ main{
 .dropdown:hover .dropbtn {background: linear-gradient(127deg,#40E0D0,#00BFFF,#E7FE7B);}
 
 .k-1{
-	margin-left: 27%;
+	margin-left: 24%;
   vertical-align: middle;
   max-width: 100%;
-  height: auto;
+  height: 700px;
   width: 50vw; 
   height: 50vh;
   margin-bottom: 200px;
@@ -265,6 +265,7 @@ main{
   width: 100%; 
   height: auto;
   margin-bottom: 1em;
+	
 }
 .inf{
 	margin-top: 50px;

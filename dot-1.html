@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1">
+	<link rel="stylesheet" type="text/css" href="css/many-styles.css">
+	<link rel="stylesheet" type="text/css" href="css/style.css">
+	<link rel="stylesheet" type="text/css" href="css/slyder.css">
+	<title>Музей Космонавтики</title>
+</head>
+<header>
+	<div class="buttons">
+		<div class="main-buttons">
+			<a href="https://rackmaker.github.io/BETA-test/"><button class="main-button">ВЕРНУТЬСЯ НАЗАД</button></a>
+		</div>
+		<div class="dropdown">
+	  		<button class="dropbtn">ТОП-5 МЕСТ ДЛЯ ПОСЕЩЕНИЯ</button>
+	  		<div class="dropdown-content">
+	    		<a href="#" class="l-1"><img src="img/kos.jpg" width="200px" height="130px" border=""><br> 1. Музей Космонавтики</a>
+	    		<a href="#" class="l-1"><img src="img/mos.jpg" width="200px" height="130px"><br>2. Москвариум</a>
+	    		<a href="#" class="l-1"><img src="img/font.jpeg" width="200px" height="130px"><br>3. Фонтан "Каменный цветок"</a>
+	    		<a href="#" class="l-1"><img src="img/kat.jpg" width="200px" height="130px"><br>4. Каток ВДНХ</a>
+	    		<a href="#" class="l-1"><img src="img/rab.jpg" width="200px" height="130px"><br>5. Скульптура "Рабочий и колхозница"</a>
+			</div>
+		</div>
+	</div>
+</header>
+<body>
+	<main class="try">
+		<div class="inf">
+			<h1 align="center">Музей Космонавтики</h1>
+		</div>
+		<div class="inf-2">
+			<div class="table"></div>
+			<p class="inf-3">
+				Музей космона́втики в Москве (ранее Мемориальный музей космонавтики) — музей космической тематики в стилобате монумента «Покорителям космоса» на Аллее Космонавтов ВДНХ. Музей был открыт 10 апреля 1981 года — к 20-летию полёта в космос Юрия Гагарина. Предметный фонд музея на январь 2017-го насчитывает более 100 тыс. единиц хранения. Общая площадь музея — 8400 м², из них 3720м² занимает непосредственно экспозиция. Среди экспонатов находятся образцы ракетно-космической техники, личные вещи космонавтов и конструкторов, архивные документы и предметы нумизматики и филателии. Музею принадлежит филиал — Дом-музей академика Сергея Павловича Королёва на 1-й Останкинской улице. Помимо выставочной работы, музей занимается культурно-просветительской деятельностью и проводит масштабную научную работу. По данным на 2016 год, ежегодное число посетителей достигло 510 тысяч человек, а к 2020-му выросла до 750 тысяч.
+			</p>
+			<h2 class="inf-4">Фотографии из музея</h2>
+
+			<!-- slyder --->
+				<div class="adaptivSlayder">
+				  <input type="radio" name="kadoves" id="slaid1" checked>
+				  <input type="radio" name="kadoves" id="slaid2">
+				  <input type="radio" name="kadoves" id="slaid3">
+				  <input type="radio" name="kadoves" id="slaid4">
+				  <div class="kadoves">
+				  	<label for="slaid1"></label>
+				  	<label for="slaid2"></label>
+				  	<label for="slaid3"></label>
+				  	<label for="slaid4"></label>
+				  </div>
+				  <div class="adaptivSlayderlasekun">
+				  	<div class="abusteku-deagulus">
+				  		<img src="img/muz-kos/muz-kos-1.jpg"width="400px" height="400px"/>
+				  		<img src="img/muz-kos/muz-kos-2.jpg"width="400px" height="400px"/>
+				  		<img src="img/muz-kos/muz-kos-3.jpg"width="400px" height="400px"/>
+				  		<img src="img/muz-kos/muz-kos-4.jpg"width="400px" height="400px"/>
+				  	</div>
+				  </div>
+				</div>
+			<!-- slyder --->
+
+		</div>
+
+		<div id="map" class="k-1"></div>
+
+	</main>
+	<footer class="footer">
+		<div class="contacts">
+			<p>Контакты для связи с технической поддержкой</p>
+		</div>
+		<div class="icons">
+			<a class="tg" onClick="window.open('https://web.telegram.org/z/#5193259372');">
+				<img src="img/tg.png" width="50px" height="50px">
+			</a>
+			<a class="ds" onClick="window.open('https://discord.gg/EvBkr5Hb');">
+				<img src="img/ds.png" width="50px" height="50px">
+		</div>
+	</footer>
+
+	<script src="https://api-maps.yandex.ru/2.1/?lang=ru_RU&amp;apikey=20f698cf-8f71-441d-a0a4-93bbb0e9eb7b"
+		type="text/javascript"></script>
+
+	<script src="scripts/script.js"></script>
+</body>
+</html>

@@ -316,3 +316,8 @@ main{
     iframe{
 	    width:100%;
 	}
+	
+
+[class*="copyrights-pane"] {
+    display: none !important;
+}
